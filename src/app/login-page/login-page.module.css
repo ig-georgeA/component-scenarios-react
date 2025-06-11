@@ -1,0 +1,108 @@
+.row-layout {
+  display: flex;
+}
+.login-page-container {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  height: 100%;
+}
+.row-layout-1 {
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  overflow: auto;
+  margin: 0.0px;
+  padding: 0.0px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.column-layout {
+  display: flex;
+  flex-direction: column;
+}
+.column-layout_1 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  margin: 0.0px;
+  padding: 36.0px;
+  width: 500.0px;
+  height: max-content;
+  min-width: 500.0px;
+  max-width: 500.0px;
+  flex-shrink: 0;
+}
+.row-layout_1 {
+  justify-content: space-between;
+  align-items: center;
+  align-content: flex-start;
+  margin: 0.0px 0.0px 32.0px;
+  padding: 0.0px;
+  height: max-content;
+  flex-shrink: 0;
+}
+.group {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.title {
+  text-align: center;
+  margin: 0.0px 0.0px 32.0px;
+  padding: 0.0px;
+  height: max-content;
+}
+.hyperlink {
+  color: var(--ig-info-500);
+  height: max-content;
+  min-width: min-content;
+  flex-shrink: 0;
+}
+.text {
+  text-align: center;
+  margin: 0.0px 0.0px 16.0px;
+  padding: 0.0px;
+  height: max-content;
+}
+.image {
+  object-fit: cover;
+  min-width: 0;
+  min-height: 0;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+.input-group-1 {
+  margin: 0.0px 0.0px 16.0px;
+  padding: 0.0px;
+  height: max-content;
+}
+.input-group {
+  margin: 0.0px 0.0px 16px;
+  padding: 0.0px;
+  height: max-content;
+}
+.checkbox {
+  margin: 0.0px;
+  padding: 0.0px;
+  width: max-content;
+  height: max-content;
+}
+.button {
+  --ig-size: var(--ig-size-medium);
+  margin: 0.0px 0.0px 16.0px;
+  padding: 0.0px;
+  height: max-content;
+}
+.button-1 {
+  --ig-size: var(--ig-size-medium);
+  margin: 0.0px 0.0px 16px;
+  padding: 0.0px;
+  height: max-content;
+}

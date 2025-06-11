@@ -1,0 +1,18 @@
+.row-layout {
+  display: flex;
+}
+.grid-summaries-container {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 16px;
+  padding: 32px;
+  height: 100%;
+}
+.list {
+  --ig-size: var(--ig-size-medium);
+  min-width: 600px;
+  min-height: 300px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
